@@ -4,9 +4,8 @@
   "description": "A Git Challenge",
   "main": "index.js",
   "scripts": {
-    "start": "node api.js && node server.js",
-    "test": "node test.js",
-    "preinstall": "node dist/setup.js"
+    "start": "node init && node server.js",
+    "test": "node test.js"
   },
   "keywords": [],
   "license": "MIT",
